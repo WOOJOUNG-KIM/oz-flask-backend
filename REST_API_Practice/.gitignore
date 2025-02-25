@@ -1,0 +1,17 @@
+# 가상환경 폴더 제외
+.venv/
+
+# 캐시 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경 파일 (API 키, DB 정보)
+.env
+
+# IDE 설정 파일 제외 (VSCode, PyCharm)
+.vscode/
+.idea/
+
+# 로그 파일 제외
+*.log
